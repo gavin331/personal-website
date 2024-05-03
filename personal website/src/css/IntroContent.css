@@ -1,0 +1,44 @@
+.intro-content {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.intro-content .greeting{
+	font-size: 20px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adding shadow effect */
+}
+
+.intro-content .name{
+	font-size: 40px;
+	font-weight: 600;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adding shadow effect */
+	text-align: center;
+}
+
+.intro-content .intro{
+	font-size: 30px;
+	font-weight: 300;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adding shadow effect */
+}
+
+.intro-content .separator {
+	width: 70%; /* Adjust width as needed */
+	margin: auto; /* Center the horizontal line */
+	margin-top: 20px; /* Adjust top margin as needed */
+	margin-bottom: 20px; /* Adjust bottom margin as needed */
+	border: none; /* Remove default border */
+	border-top: 2px solid #333; /* Add border on top to create the line */
+}
+
+.profile-pic {
+	width: 400px;
+	height: 400px;
+	margin: auto 60px;
+	border-radius: 50%;
+}
+
+.button-container {
+	margin-top: 20px;
+}

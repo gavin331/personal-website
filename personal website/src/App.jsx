@@ -1,12 +1,15 @@
 import Header from './Header.jsx'
-import HomeBody from './HomeBody.jsx'
-
+import IntroContent from './IntroContent.jsx'
 
 function App() {
 	return (
 		<>
 		<Header/>
-		<HomeBody/>
+		<IntroContent/>
+		<section>HELLO</section>
+		<section>HELLO</section>
+		<section>HELLO</section>
+
 		</>
 	)
 }
