@@ -1,0 +1,32 @@
+.experience {
+	display: flex;
+    flex-direction: column;
+	text-align: center;
+    justify-content: center;
+}
+
+.experience-text {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: min-content;
+    min-height: 270px;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 40px;
+    max-height: 30px;
+    align-items: center;
+}
+
+.grid-item-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}

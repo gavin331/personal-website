@@ -12,13 +12,13 @@ function AboutMe() {
                     <div className="right-half-content">
                         <div className='boxes'>
                             <div className="box">
-                                <p className='experience'>Experience</p>
+                                <p className='box-title'>Experience</p>
                                 <p>2 years</p>
                                 <p>Full stack development</p>
                             </div>
 
                             <div className="box">
-                                <p className='education'>Education</p>
+                                <p className='box-title'>Education</p>
                                 <p>Bachelor in Computer Science</p>
                                 <p>Software Engin and Cyber</p>
                             </div>

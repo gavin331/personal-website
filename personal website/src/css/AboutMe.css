@@ -1,5 +1,8 @@
 .about-me {
+    display: flex;
+    flex-direction: column;
 	text-align: center;
+    justify-content: center;
 }
 
 .about-me-text {
@@ -21,7 +24,7 @@
 .boxes {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 }
 
 .box {
@@ -29,13 +32,14 @@
     border: 1px solid black;
     border-radius: 20px;
     padding: 20px 40px;
+    flex: 1
 }
 
 .text-box {
     text-align: left;
 }
 
-.education, .experience {
+.box-title {
     font-size: 20px;
     font-weight: bold;
 }
