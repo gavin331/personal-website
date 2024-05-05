@@ -37,6 +37,7 @@
 	height: 400px;
 	margin: auto 60px;
 	border-radius: 50%;
+	border: solid pink;
 }
 
 .button-container {

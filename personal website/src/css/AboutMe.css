@@ -1,0 +1,41 @@
+.about-me {
+	text-align: center;
+}
+
+.about-me-text {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.about-me-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right-half-content {
+    align-items: left;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+
+.text-box {
+    text-align: left;
+}
+
+.education, .experience {
+    font-size: 20px;
+    font-weight: bold;
+}
