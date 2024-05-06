@@ -5,11 +5,6 @@
     justify-content: center;
 }
 
-.about-me-text {
-    font-weight: bold;
-    font-size: 40px;
-}
-
 .about-me-content {
     display: flex;
     justify-content: center;

@@ -14,3 +14,8 @@ section {
 	background-color: orange;
 	height: 80vh;
 }
+
+.section-second-line {
+    font-weight: bold;
+    font-size: 40px;
+}

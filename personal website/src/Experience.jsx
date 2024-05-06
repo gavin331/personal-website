@@ -7,7 +7,7 @@ function Experience() {
         <>
             <section className="experience">
                 <p>Explore my</p>
-                <h1 className='experience-text'>Experience</h1>
+                <h1 className='section-second-line'>Experience</h1>
                 <div className='about-me-content'>
                     <div>
                         <div className='boxes'>

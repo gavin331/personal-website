@@ -6,7 +6,7 @@ function AboutMe() {
         <>
             <section className="about-me">
                 <p>Get to know more</p>
-                <h1 className='about-me-text'>About me</h1>
+                <h1 className='section-second-line'>About me</h1>
                 <div className='about-me-content'>
                     <img className="profile-pic" src="/src/assets/luffy.jpeg" alt="Profile Picture"></img>
                     <div className="right-half-content">

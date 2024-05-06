@@ -1,0 +1,32 @@
+.projects {
+	display: flex;
+    flex-direction: column;
+	text-align: center;
+    justify-content: center;
+}
+
+.project-content {
+    align-items: center;
+}
+
+.project-row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.project-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px 0px
+}
+
+.project-box-layout {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
