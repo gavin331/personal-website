@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 function Projects() {
     return(
         <>
-            <section className="projects">
+            <section id="projects" className="projects">
                 <p>Browse my recent</p>
                 <h1 className="section-second-line">Projects</h1>
                 <div className='project-content'>
@@ -15,12 +15,12 @@ function Projects() {
                             <div className="box project-box-layout">
                                 <p className='box-title'>Project 1</p>
                                 <img className="project-image" src="/src/assets/luffy.jpeg" alt="Profile Picture"></img>
-                                <Button variant="contained" href="https://github.com/gavin331" sx={{mr: 10, ml: 10}} startIcon={<GitHubIcon />}>GITHUB</Button>
+                                <Button variant="outlined" href="https://github.com/gavin331" sx={{mr: 10, ml: 10}} startIcon={<GitHubIcon />}>GITHUB</Button>
                             </div>
                             <div className="box project-box-layout">
                                 <p className='box-title'>Project 2</p>
                                 <img className="project-image" src="/src/assets/luffy.jpeg" alt="Profile Picture"></img>
-                                <Button variant="contained" href="https://github.com/gavin331" sx={{mr: 10, ml: 10}} startIcon={<GitHubIcon />}>GITHUB</Button>
+                                <Button variant="outlined" href="https://github.com/gavin331" sx={{mr: 10, ml: 10}} startIcon={<GitHubIcon />}>GITHUB</Button>
                              
                             </div>
                         </div>

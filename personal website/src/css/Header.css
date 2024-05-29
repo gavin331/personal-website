@@ -7,12 +7,12 @@ nav {
 }
 
 .nav-name {
-	margin-left: 200px;
+	margin-left: 300px;
 }
 
 ul {
 	list-style: none;
-	margin-right: 100px;
+	margin-right: 200px;
 }
 
 ul li {
@@ -29,5 +29,5 @@ ul li a {
 }
 
 ul li a:hover {
-	background-color: #817F7E;
+	background-color: #bbb8b7;
 }

@@ -17,9 +17,9 @@ function IntroContent() {
                     <p className="intro"> Year 3 CS student</p>
                     <hr className="separator" />
                     <div className="button-container">
-                        <Button variant="contained" sx={{mr: 2}} startIcon={<SchoolIcon />}>COURSES</Button>
-                        <Button variant="contained" href="https://github.com/gavin331" sx={{mr: 2}} startIcon={<GitHubIcon />}>GITHUB</Button>
-                        <Button variant="contained" href="https://www.linkedin.com/in/gavin-goh-85a51a22a/" sx={{mr: 2}} startIcon={<LinkedInIcon />}>LINKEDIN</Button>
+                        <Button variant="outlined" sx={{mr: 2}} startIcon={<SchoolIcon />}>COURSES</Button>
+                        <Button variant="outlined" href="https://github.com/gavin331" target="_blank" sx={{mr: 2}} startIcon={<GitHubIcon />}>GITHUB</Button>
+                        <Button variant="outlined" href="https://www.linkedin.com/in/gavin-goh-85a51a22a/" target="_blank" sx={{mr: 2}} startIcon={<LinkedInIcon />}>LINKEDIN</Button>
                     </div>
                 </div>
             </section>

@@ -6,10 +6,10 @@ function Header() {
             <nav>
                 <h1 className="nav-name">Gavin Goh J. W.</h1>
                 <ul>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Experiences</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contacts</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#experience">Experiences</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </>

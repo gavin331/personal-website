@@ -5,7 +5,7 @@ import '/src/css/Experience.css';
 function Experience() {
     return(
         <>
-            <section className="experience">
+            <section id="experience" className="experience">
                 <p>Explore my</p>
                 <h1 className='section-second-line'>Experience</h1>
                 <div className='about-me-content'>

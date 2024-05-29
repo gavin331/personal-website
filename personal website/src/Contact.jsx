@@ -5,7 +5,7 @@ import GridItem from './GridItem';
 function Contact() {
     return(
         <>
-            <section className='contact'>
+            <section id="contact" className='contact'>
                 <p>Get in Touch</p>
                 <h1 className="section-second-line">Contact Me</h1>
                 <div className='contact-box'>

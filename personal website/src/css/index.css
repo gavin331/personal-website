@@ -2,17 +2,16 @@
 
 * {
 	font-family: "Poppins", sans-serif;
-	font-weight: 300;
+	font-weight: 500;
 	font-style: normal;
 	margin: 0;
 	padding: 0;
 }
 
 section {
-	margin-top: 100px;
 	margin-bottom: 100px;
+	height: 100vh;
 	background-color: orange;
-	height: 80vh;
 }
 
 .section-second-line {
