@@ -50,7 +50,7 @@ function Experience() {
                     <KeyboardDoubleArrowDownIcon sx={{ fontSize: 50 }} />
                 </IconButton>
             </div> */}
-            <DownwardArrow navTarget="#projects" />
+            <DownwardArrow navTarget="projects" />
         </>
     )
 }

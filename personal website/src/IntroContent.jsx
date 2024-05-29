@@ -24,7 +24,7 @@ function IntroContent() {
                     </div>
                 </div>
             </section>
-            <DownwardArrow navTarget="#about-me" />
+            <DownwardArrow navTarget="about-me" />
         </>
     )
 }

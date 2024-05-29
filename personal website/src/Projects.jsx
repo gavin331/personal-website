@@ -1,8 +1,6 @@
 import '/src/css/Projects.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import DownwardArrow from './DownwardArrow';
 
 function Projects() {
@@ -29,12 +27,7 @@ function Projects() {
                     </div>
                 </div>
             </section>
-            {/* <div className="nav-icon">
-                <IconButton href="#contact" className="nav-icon" aria-label="downward-arrow" sx={{ height: 'fit-content' }}>
-                    <KeyboardDoubleArrowDownIcon sx={{ fontSize: 50 }} />
-                </IconButton>
-            </div> */}
-            <DownwardArrow navTarget="#contact" />
+            <DownwardArrow navTarget="contact" />
         </>
     )
 }

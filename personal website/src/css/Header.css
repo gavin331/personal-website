@@ -30,4 +30,5 @@ ul li a {
 
 ul li a:hover {
 	background-color: #bbb8b7;
+	cursor: pointer;
 }

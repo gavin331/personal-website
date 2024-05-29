@@ -37,7 +37,7 @@ function AboutMe() {
                     </div>
                 </div>
             </section>
-            <DownwardArrow navTarget="#experience" />
+            <DownwardArrow navTarget="experience" />
         </>
     )
 }
