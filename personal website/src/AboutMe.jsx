@@ -1,5 +1,5 @@
 import '/src/css/AboutMe.css';
-
+import DownwardArrow from './DownwardArrow';
 
 function AboutMe() {
     return(
@@ -37,6 +37,7 @@ function AboutMe() {
                     </div>
                 </div>
             </section>
+            <DownwardArrow navTarget="#experience" />
         </>
     )
 }

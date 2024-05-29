@@ -9,12 +9,20 @@
 }
 
 section {
-	margin-bottom: 100px;
-	height: 100vh;
+	/* margin-bottom: 100px; */
+	height: 80vh;
 	background-color: orange;
 }
 
 .section-second-line {
     font-weight: bold;
     font-size: 40px;
+}
+
+.nav-icon {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 20vh;
+	margin-right: 250px;
 }

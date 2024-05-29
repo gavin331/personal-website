@@ -1,6 +1,6 @@
 import GridItem from './GridItem';
 import '/src/css/Experience.css';
-
+import DownwardArrow from './DownwardArrow';
 
 function Experience() {
     return(
@@ -45,6 +45,12 @@ function Experience() {
                     </div>
                 </div>
             </section>
+            {/* <div className="nav-icon">
+                <IconButton href="#projects" className="nav-icon" aria-label="downward-arrow" sx={{ height: 'fit-content' }}>
+                    <KeyboardDoubleArrowDownIcon sx={{ fontSize: 50 }} />
+                </IconButton>
+            </div> */}
+            <DownwardArrow navTarget="#projects" />
         </>
     )
 }

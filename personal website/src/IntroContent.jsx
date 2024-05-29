@@ -2,6 +2,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import Button from '@mui/material/Button';
 import SchoolIcon from '@mui/icons-material/School';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import DownwardArrow from './DownwardArrow';
 import '/src/css/IntroContent.css';
 
 function IntroContent() {    
@@ -23,6 +24,7 @@ function IntroContent() {
                     </div>
                 </div>
             </section>
+            <DownwardArrow navTarget="#about-me" />
         </>
     )
 }
